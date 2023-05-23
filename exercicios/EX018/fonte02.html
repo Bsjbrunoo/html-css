@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+      @font-face {
+        font-family: 'Robot' ;
+        src: url('fonts/Robot Crush.otf') format('opentype'), url('fonts/Robot Crush.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'Astronomus';
+        src: url('fonts/Astronomus.ttf') format('truetype');
+        font-weight: normal;
+        font-weight: normal;
+    }
+        /*
+        Tipos de format()
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (Apple Advanced Typography)
+        - svg 
+        */
+      
+        
+        
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: 'Robot', Times, serif;
+            font: weight 200px;;
+            font-size:xx-large
+        }
+
+        p{
+            font-family: Astronomus;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis aliquid numquam ea quos at ex, quibusdam cum voluptatibus recusandae corporis repellendus, veniam cumque reprehenderit. Voluptatem quidem velit aliquid dicta repellendus?</p>
+</body>
+</html>

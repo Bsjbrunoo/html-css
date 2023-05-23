@@ -1,0 +1,33 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: linear-gradient( to right, #BFBFBF, #8C8C8B );
+}
+
+main {
+    background-color: white;
+    border-radius: 10px; /*usando para arredondar as bordas da caixa*/
+    box-shadow: 5px 5px 15px, rgba(56, 56, 56, 0.741);
+    width: 600px; /*largura */
+    padding: 10px; /*serve para arrendodar a caixa */
+    margin: auto; /*comando margin usado para alinhar no caso do auto sempre vai deixar no centro da tela */
+}
+
+h1{
+    color: #0D0D0D;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(70, 70, 70, 0.937);
+}
+
+h2 {
+    color: #404040;
+
+}
+p {
+    text-align: justify;
+
+}

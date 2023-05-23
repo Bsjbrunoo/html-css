@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{background-color: grey;
+
+}
+
+h1{ background-color: yellow;
+    font-family:fantasy; 
+    color: black; 
+    font-style: oblique;text-shadow: white 0.1em 0.0em ;text-decoration: underline;
+}
+
+h2{ font-family:fantasy; 
+    color: black; 
+    font-style: oblique;text-shadow: white 0.1em 0.0em ;text-decoration: underline;
+
+}
